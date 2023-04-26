@@ -41,7 +41,7 @@ import matplotlib.pyplot as plt
 from google.colab import drive
 drive.mount('/content/drive')
 
-"""Onde **DNS** significa "*Deaths for Neoplasms for both Sex*" (Mortes por câncer para ambos os sexos)
+"""**DNS** = "*Deaths for Neoplasms for both Sex*" (Mortes por câncer para ambos os sexos)
 
 """
 
@@ -73,15 +73,26 @@ for col in df.columns[3:]:
 
 """##Variância e Desvio Padrão"""
 
-for col in df.columns:
+for col in df.columns[3:]:
   if df[col].dtype != 'object':
     variance = df[col].var()
     std_dev = df[col].std()
 
-    print(f"{col} - Variância: {variance}, Desvio Padrão: {std_dev}")
+    print(f"{col}\n Variância: {variance}\n Desvio Padrão: {std_dev}\n")
 
-"""##Boxplots"""
+"""##Boxplots
+
+Boxplots criados utilizando algumas variáveis do dataset.
+"""
 
 df_filtered = df.loc[((df['Year'] == 1990) | (df['Year'] == 2010))]
-sns.boxplot(data=df_filtered,x='Year',y='Deaths - Neoplasms - Sex: Both - Age: 15-49 years (Rate)')
+sns.boxplot(data=df_filtered,x='Year',y='15 > DNS > 49')
 plt.title('Taxa de mortalidade (pessoas de 15 à 49 anos) em 1990 e 2010',fontsize=11)
+
+df_filtered_brics = df.loc[((df['Entity'] == 'Brazil') | (df['Entity'] == 'Russia' ) | (df['Entity'] == 'India') | (df['Entity'] == 'China') | (df['Entity'] == 'South Africa'))]
+sns.boxplot(data=df_filtered_brics , x='Entity', y='DNS all ages')
+plt.title('Taxa de mortalidade (pessoas de todas as idades) dos países do BRICS',fontsize=10)
+
+df_filtered_ukr = df.loc[(df['Entity']=='Ukraine')|(df['Entity'] == 'Russia')]
+sns.boxplot(data=df_filtered_ukr , x='Entity', y='DNS all ages',palette="Set1")
+plt.title('Taxa de mortalidade (todas as idades) - Ucrânia e Rússia')
