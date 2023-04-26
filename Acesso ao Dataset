@@ -1,3 +1,0 @@
-import panda as pd
-
-df = pd.read_csv('cancer_data_eng.csv',encoding="windows-1252")
