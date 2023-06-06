@@ -3,59 +3,29 @@
 
 _Conclusões da Análise:_
 
-**1)
-2)
-3)
-4)
-5)
-6)** Qual a faixa etária com maior número de mortes nesses países?
+**1)** Qual a faixa etária com maior número de mortes nesses países?
   
   A partir da análise, percebemos que a faixa etária com maior taxa de mortes entre os países são pessoas com mais de 70 anos.
 
-**1)
-2)
-3)
-4)
-5)
-6)** Para cada faixa etária disponível no dataset 2, qual o país com a maior taxa de casos?
+**2)** Para cada faixa etária disponível no dataset 2, qual o país com a maior taxa de casos?
 
   Como podemos ver a partir da análise, o Afeganistão tem as maiores taxas para crianças e adolescentes, enquanto Kiribati tem as maiores na faixa de 15 a 69 anos e Brunei para pessoas com mais de 70 anos.  
 
-**1)
-2)
-3)
-4)
-5)
-6)** Qual o país com taxas de morte mais constantes ao longo dos anos?
+**3)** Qual o país com taxas de morte mais constantes ao longo dos anos?
 
   Partindo das informações vistas no gráfico, sabemos que o país mais constante é Kiribati. Sendo o país que tem menor variação nas suas taxas ao longo dos anos.
 
-**1)
-2)
-3)
-4)
-5)
-6)** Qual o país com maior queda de casos entre 2015 e 2019?
+**4)** Qual o país com maior queda de casos entre 2015 e 2019?
 
    O país com a maior queda de taxas, entre 2015 e 2019, foi a Guinea. 
    Podemos correlacionar essa queda com o crescimento do investimento público em saúde no período analisado.
 
-**1)
-2)
-3)
-4)
-5)
-6)** Qual o país teve o maior crescimento, e qual país teve o maior decrescimento, em suas taxas ao passar dos anos?
+**5)** Qual o país teve o maior crescimento, e qual país teve o maior decrescimento, em suas taxas ao passar dos anos?
 
   O país com maior crescimento de casos, de 1990 a 2019, foi Cuba. E o de maior decrescimento foi Afeganistão. 
   Pode-se observar que, embora Cuba tenha um grande investimento em saúde, o país apresenta grande aumento de casos. Desse modo, podemos nos questionar sobre como o investimento em saúde está sendo aplicado no tratamento de câncer, e também sobre que fatores influenciam no aumento dessas taxas, como estilo de vida e predisposições genéticas.
 
-**1)
-2)
-3)
-4)
-5)
-6)** No ano com menos casos globais, quais, entre os países pré determinados, tiveram maiores e menores investimentos públicos em saúde?
+**6)** No ano com menos casos globais, quais, entre os países pré determinados, tiveram maiores e menores investimentos públicos em saúde?
   
   Concluímos que o ano com menores taxas foi 2002. 
 
