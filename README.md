@@ -1,5 +1,5 @@
-**A partir da Cadeira de Introdução à Ciência de Dados (ICD), com o Professor Yuri Malheiros, na Universidade Federal da Paraíba (UFPB), nós, Adriel, Jessica e Kamily, fizemos uma análise exploratória dos dados de casos de câncer, relacionados a diferentes faixas etárias em diferentes países, corelacionando-as as porcentagens de investimento público em saúde, a fim de responder perguntas pré-definidas.
-**
+**A partir da Cadeira de Introdução à Ciência de Dados (ICD), com o Professor Yuri Malheiros, na Universidade Federal da Paraíba (UFPB), nós, Adriel, Jessica e Kamily, fizemos uma análise exploratória dos dados de casos de câncer, relacionados a diferentes faixas etárias em diferentes países, corelacionando-as as porcentagens de investimento público em saúde, a fim de responder perguntas pré-definidas.**
+
 
 _Conclusões da Análise:_
 
